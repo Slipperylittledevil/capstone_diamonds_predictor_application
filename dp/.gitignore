@@ -1,0 +1,15 @@
+# Data — download from Kaggle instead of committing
+data/*.csv
+!data/README.md
+
+# Models are regenerable; uncomment to commit them
+models/*.keras
+models/*.pkl
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.venv/
+venv/
+.DS_Store
